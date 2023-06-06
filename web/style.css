@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-layout {
+    display: flex;
+
+    /* Put a card in the next row when previous cards take all width */
+    flex-wrap: wrap;
+
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+}
+
+.card-layout__item {
+    /* There will be 3 cards per row */
+    flex-basis: 33.33333%;
+
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    box-shadow: 0px 0px 5px 0px #000000;
+    margin: 5px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    border-style: outset;
+    min-width: 20px;
+    min-height: 25px;
+}
+
+.title {
+    background-color: white;
+    align-items: center;
+}
+
+#shutdown {
+    border: 2px;
+    border-color: #068900;
+    border-style: outset;
+    box-shadow: 0px 0px 5px 0px #000000;
+    border-radius: 10px;
+    margin: 3px;
+    background-color: #068900;
+    color: white;
+}
+
+#shutdown:active {
+    border: 2px;
+    border-color: #068900;
+    border-style: inset;
+    box-shadow: inset 0px 0px 5px 0px #000000;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+#shutdown:hover {
+    cursor: pointer;
+}
+
+footer {
+    font-size: smaller;
+    align-content: center;
+    bottom: auto;
+    margin-top: 50%;
+}
+
+#del_tmp {
+    border: 2px;
+    border-color: #068900;
+    border-style: outset;
+    box-shadow: 0px 0px 5px 0px #000000;
+    border-radius: 10px;
+    margin: 3px;
+    background-color: #068900;
+    color: white;
+}
+
+#del_tmp:active {
+    border: 2px;
+    border-color: #068900;
+    border-style: inset;
+    box-shadow: inset 0px 0px 5px 0px #000000;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+#del_tmp:hover {
+    cursor: pointer;
+}
+
+#scan_disk {
+    border: 2px;
+    border-color: #068900;
+    border-style: outset;
+    box-shadow: 0px 0px 5px 0px #000000;
+    border-radius: 10px;
+    margin: 3px;
+    background-color: #068900;
+    color: white;
+}
+
+#scan_disk:active {
+    border: 2px;
+    border-color: #068900;
+    border-style: inset;
+    box-shadow: inset 0px 0px 5px 0px #000000;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+#scan_disk:hover {
+    cursor: pointer;
+}
+
+#soon {
+    border: 2px;
+    border-color: white;
+    border-style: outset;
+    box-shadow: 0px 0px 5px 0px #000000;
+    border-radius: 10px;
+    margin: 3px;
+    background-color: white;
+    color: black;
+    cursor: not-allowed;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <link rel="stylesheet" href="style.css">
+        <title>Swiss knife</title>
+        <script type="text/javascript" src="eel.js"></script>
+    </head>
+    <body>
+        <div class="title">
+            <h1 class="title">Swiss knife</h1>
+        </div>
+        <div class="card-layout">
+            <div class="card-layout__item">
+                <div class="card_content">
+                    <h4>Выключение</h4>
+                    <span>Принудительное выключение компьютера</span><br>
+                    <button id="shutdown"><strong>Выполнить</strong></button>
+                </div>
+                <script src="js/shutdown.js"></script>
+                
+            </div>
+            <div class="card-layout__item">
+                <div class="card_content">
+                    <h4>Очистка</h4>
+                    <span>Удаление временно хранящихся файлов</span><br>
+                    <button id="del_tmp"><strong>Выполнить</strong></button>
+                </div>
+                <script src="js/del_tmp.js"></script>
+                
+            </div>
+            <div class="card-layout__item">
+                <div class="card_content">
+                    <h4>ScanDisk</h4>
+                    <span>Сканирование системного диска</span><br>
+                    <button id="scan_disk"><strong>Выполнить</strong></button>
+                </div>
+                <script src="js/scan_disk.js"></script>
+                
+            </div>
+            <div class="card-layout__item">
+                <div class="card_content">
+                    <h4>Скоро...</h4>
+                    <span>Эта и другие функции появятся в следующих обновлениях</span><br>
+                    <button disabled id="soon"><strong>Выполнить</strong></button>
+                </div>
+                
+            </div>
+        </div>
+        <footer>
+            <center>
+                Swiss_knife - швейцарский нож<br>
+                <sub>Разработчик: © 2023 Blaze_Edge</sub>
+            </center>
+        </footer>
+    </body>
+
+    
+</html>
