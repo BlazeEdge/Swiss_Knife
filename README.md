@@ -8,4 +8,6 @@
 * Удаление временно хранящихся файлов
 * Проверка системного диска
 
+![favicon](https://github.com/BlazeEdge/Swiss_Knife/assets/126488067/00bc0517-b350-44cf-935a-711bedc04e5e)
+
 <sub>blaze_edge</sub>
