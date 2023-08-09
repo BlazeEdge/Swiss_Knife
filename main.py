@@ -27,4 +27,4 @@ def scan_disk():
     except:
         pass
 
-eel.start("index.html", size=(400, 700), block=True)
+eel.start("index.html", size=(400, 700), mode="electron")
